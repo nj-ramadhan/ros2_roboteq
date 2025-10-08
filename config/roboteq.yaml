@@ -7,11 +7,11 @@ roboteq_ros2_driver:
     odom_topic: "odom"
     port: "/dev/ttyUSB0"
     baud: 230600
-    open_loop: false
-    wheel_circumference: 0.464
-    track_width: 0.275
+    open_loop: true
+    wheel_circumference: 0.490088
+    track_width: 0.6
     encoder_ppr: 4096
     encoder_cpr: 16384
-    max_amps: 5.0
-    max_rpm: 100
-    gear_ratio: 9.2
+    max_amps: 30.0
+    max_rpm: 333.333
+    gear_ratio: 9.0
